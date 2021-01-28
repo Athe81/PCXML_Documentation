@@ -6,8 +6,8 @@ No warranties. All data are reverse engineered.
 <br><br>
 Version of Alteryx Designer used: 2020.2.3
 
-# Basic document
-Following basic elements are possible
+# Root elements
+Following elements can be used as root elements
 + [\<div>](#div)
 + [\<hX>](#hX)
 + [\<span>](#span)
