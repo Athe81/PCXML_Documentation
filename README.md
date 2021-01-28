@@ -9,6 +9,7 @@ Version of Alteryx Designer used: 2020.2.3
 # Basic document
 Following basic elements are possible
 + [\<div>](#div)
++ [\<hX>](#hX)
 + [\<span>](#span)
 + [\<table>](#table)
 + String literal
@@ -78,6 +79,9 @@ HTML element
 + [style](#style-attribute)
 
 **Childs:**
++ [\<div>](#div)
++ [\<hX>](#hX)
++ [\<span>](#span)
 + String literal
 
 ***
@@ -90,6 +94,9 @@ HTML element, which changes the default formatting (compared to [\<td>](#td))
 + [style](#style-attribute)
 
 **Childs:**
++ [\<div>](#div)
++ [\<hX>](#hX)
++ [\<span>](#span)
 + String literal
 
 ***
@@ -104,6 +111,7 @@ HTML element
 
 **Childs:**
 + [\<div>](#div)
++ [\<hX>](#hX)
 + [\<span>](#span)
 + [\<style>](#style)
 + [\<table>](#table)
@@ -127,6 +135,18 @@ HTML element which holds CSS definitions
 HTML element
 
 **Attributes:**
+
+**Childs:**
++ String literal
+
+***
+
+## \<hX>
+
+HTML header element. X can be between 1 and 6
+
+**Attributes:**
++ [\<style>](#style)
 
 **Childs:**
 + String literal
